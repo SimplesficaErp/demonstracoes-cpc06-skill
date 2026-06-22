@@ -1,0 +1,30 @@
+# Output
+output/
+*.xlsx.bak
+~$*.xlsx
+relatorio-cpc06-newledger*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Macros e temp
+.DS_Store
+Thumbs.db
+
+# Dados reais (anonimizar antes de commit)
+*-private/
+*-cliente-real/
+private_inputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Old / draft
+_old/
+*.draft.*
